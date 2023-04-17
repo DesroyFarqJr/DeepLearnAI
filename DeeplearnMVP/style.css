@@ -1,0 +1,150 @@
+body {
+    background-color: #000000;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); 
+  
+  html, body, [class*="css"] {
+      font-family: 'Roboto', sans-serif; 
+      font-weight: 500;
+      color: #091747;
+     
+  }
+  /*box shadow for sidebar*/
+  [class*="css-6qob1r e1fqkh3o3"]{
+    box-shadow: 6px 0px 11px rgba(145, 145, 145, 0.461);
+  
+  /*Drag text button*/
+  }
+  button.css-y01704.edgvbvh10{
+    color: white;
+    background-color: #094578;
+  
+  
+  }
+  button.css-y01704.edgvbvh10:active{
+    color: white;
+    background-color: #306fa6;
+  
+  
+  }
+  
+  
+  /*Box Shadow for button*/
+  [class*="css-1ullmay edgvbvh10"]{
+    color: #000000;
+    box-shadow: 6px 0px 7px rgba(145, 145, 145, 0.13);
+    
+    
+  }
+  
+  
+  
+  /*box-shadow: 0 0 0 4px #EADDCA, 2px 2px rgba(0, 0, 0, 0.5); */
+  
+  /* center the blockquote in the page */
+  .blockquote-wrapper {
+    display: flex;
+    /*  height: 100vh;  */
+    padding: 0 20px;
+  }
+  
+  /* Blockquote main style */
+  .blockquote {
+    position: relative;
+    max-width: 620px;
+    max-width: 80vw;
+    margin: 40px auto;
+    align-self: center;
+  }
+  
+  div.css-mzbmxz.e16nr0p34{
+      font-size: large;
+  }
+  
+  /* Blockquote header */
+  .blockquote h1 {
+    position: relative;
+    /* for pseudos */
+    color: #0077ff;
+    font-size: 2.8rem;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0;
+    border: 2px solid #fff;
+    border: solid 2px;
+    border-radius: 20px;
+    padding: 25px;
+  }
+  
+  /* Blockquote right double quotes */
+  .blockquote h1:after {
+    content: "";
+    position: absolute;
+    border: 2px solid #0077ff;
+    border-radius: 0 50px 0 0;
+    width: 60px;
+    height: 60px;
+    bottom: -60px;
+    left: 50px;
+    border-bottom: none;
+    border-left: none;
+    z-index: 3;
+  }
+  
+  .blockquote h1:before {
+    content: "";
+    position: absolute;
+    width: 80px;
+    border: 6px solid #ffffff;
+    bottom: -2px;
+    left: 50px;
+    z-index: 2;
+  }
+  
+  /* increase header size after 600px */
+  
+  @media all and (min-width: 600px) {
+    .blockquote h1 {
+      /*    font-size: 3rem;    */
+      line-height: 1.2;
+    }
+  }
+  
+  /* decrease header size below 450px */
+  
+  @media all and (max-width: 450px) {
+    .blockquote h1 {
+      font-size: 2rem;
+    }
+  }
+  
+  /* Blockquote subheader */
+  .blockquote h4 {
+    position: relative;
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0;
+    padding-top: 15px;
+    z-index: 1;
+    margin-left: 150px;
+    padding-left: 12px;
+  }
+  
+  .blockquote h4:first-letter {
+    margin-left: -12px;
+  }
+  
+  .answer {
+    border: 3px solid #202534;
+    /* background-color: #000000; */
+    border-radius: 5px;
+    /* background: linear-gradient(0deg, #030001 0%, #1c0101 50%); */
+    padding: 20px;
+    font-size: 1.25rem;
+  }
+  
+  .answer p {
+    font-size: 1.25rem;
+  }
